@@ -4,13 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
 <body>
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    
+
+    <div class="container">
+    
+    <h1>Carosello Custom</h1>
+        <div class="slider"> 
+                <div onclick="indietro()" class="prev">
+                    <i class="fa-solid fa-arrow-up"></i>
+                </div>
+            <div class="items"> 
+
+                <div class="item active first">
+                    <img src="./assets/img/01.webp" alt="" class="img-1">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/02.webp"  alt="" class="img-2">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/03.webp"  alt="" class="img-3">
+                </div>
+                <div class="item">
+                    <img src="./assets/img/04.webp"  alt="" class="img-4">
+                </div>
+                <div class="item last">
+                    <img src="./assets/img/05.webp"  alt="" class="img-5">
+                </div>
+            </div>
+           
+            <div onclick="avanti()" class="next">
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
+        </div>
+    </div>
+
+
     <script src="./assets/js/main.js"></script>
     
 </body>
